@@ -7,5 +7,10 @@ scanf("%d",&a,&b,&c);
 //calculat the sum:
 sum=a+b+c;
 //calculat the average:
-average 
+average=sum/3;
+printf ("sum=%d\n",sum);
+printf ("average=%d\n", average);
+
+return 0;
+}
 
