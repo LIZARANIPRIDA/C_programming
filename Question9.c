@@ -13,7 +13,6 @@ else if (b >= a && b >= c){
 else {
   printf ("Largest:%d.\n",c);
 }
-printf ("Largest=%d\n". largest);
 return 0;
 }
 
