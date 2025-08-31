@@ -2,7 +2,7 @@
 int main (){
 char name[4];
 int age;
-float Mark;
+float mark;
   printf ("Enter your name");
   scanf("%c",&name);
   printf("Enter your age");
