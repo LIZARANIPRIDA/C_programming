@@ -1,8 +1,8 @@
 #include<stdio.h>
  int main(){
   int a,b; 
-  int Additiona, subtraction, multiplication;
-  float Division;
+  int Add, sub, multi;
+  float Divis;
 //input the value 
  printf ("Enter the two numbers: ");
  scanf("%d %d",&a,&b);
