@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (){
-char name;
+char name[4];
 int age;
 float Mark;
   printf ("Enter your name");
@@ -8,4 +8,10 @@ float Mark;
   printf("Enter your age");
   scanf("%d",&age);
   printf ("Enter your mark");
+
 //Displaying 
+printf ("name:%s", name);
+printf ("age:%d",age);
+printf ("mark:%f",mark);
+ return 0;
+}
