@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main (){
-  int a,b,c,sum,average;
+  int a,b,c,sum;
+  float average;
 //input the number:
 printf ("Enter the three numbers: ");
 scanf("%d %d %d",&a,&b,&c);
@@ -9,7 +10,7 @@ sum=a+b+c;
 //calculat the average:
 average=sum/3;
 printf ("Sum=%d\n",sum);
-printf ("Average=%d\n", average);
+printf ("Average=%.2f\n", average);
 
 return 0;
 }
