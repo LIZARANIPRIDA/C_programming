@@ -1,5 +1,5 @@
-include<stdio.h>
-int main(){
+#include<stdio.h>
+ int main(){
   int a,b; 
   int Additiona, subtraction, multiplication;
   float Division;
